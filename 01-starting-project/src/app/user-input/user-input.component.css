@@ -8,11 +8,11 @@ form {
   }
   
   .input-group {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
     gap: 1.5rem;
-  }
-  
+}
+
   label {
     display: block;
     margin-bottom: 0.25rem;
@@ -33,7 +33,7 @@ form {
   }
   
   button {
-    width: 100%;
+    width: 210%;
     padding: 0.5rem;
     border: 1px solid #76c0ae;
     border-radius: 0.25rem;
@@ -43,7 +43,7 @@ form {
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
-  }
+}
   
   button:hover {
     background-color: #aaf1d6;
